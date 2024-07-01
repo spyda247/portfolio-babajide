@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home - Babajide Ibiayo</title>
+    <script
+      src="https://kit.fontawesome.com/4a360f3880.js"
+      crossorigin="anonymous"
+      defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <header class="desktop">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about/">About Me</a>
+          <a href="contact/">Contact Me</a>
+        </nav>
+      </header>
+      <header class="mobile">
+        <nav>
+          <img class="close-btn" src="images/icons8-close-50.png" />
+          <a href="index.html">Home</a>
+          <a href="about/">About Me</a>
+          <a href="contact/">Contact Me</a>
+        </nav>
+
+        <img
+          class="hamburger"
+          src="images/icons8-hamburger-menu-50.png"
+          alt="Hamburger menu icon" />
+      </header>
+      <main>
+        <section class="home bio">
+          <div class="left">
+            <h1>Welcome to my page</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Inventore, nulla impedit! Pariatur saepe, accusantium nulla
+              repudiandae laborum voluptas optio in fugiat porro expedita quis
+              officia, harum id ullam odio dolor!
+            </p>
+            <button id="btn-skills" class="button">Show skills</button>
+            <div class="skills-wrapper hide">
+              <div class="card">
+                <div class="skills html">HTML 80%</div>
+                <div class="skills css">CSS 85%</div>
+                <div class="skills js">JavaScript 90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="images/gift-habeshaw-OZI_ZE5lpiA-unsplash.jpg" />
+            <h2>Babajide Ibiayo</h2>
+            <p>Web Developer <br />Lagos, Nigeria</p>
+          </div>
+        </section>
+
+        <section class="home projects">
+          <h2>Some of my recent projects</h2>
+          <div><!-- Project list --></div>
+        </section>
+        <section class="home cta">
+          <div>
+            <h3>Learn more about me</h3>
+            <p>
+              You can learn more about me, my goals, career, education,
+              experience and hobbies.<br />Click the button below
+            </p>
+            <button class="button" onclick="window.location.href='../about'">
+              Learn more about me
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright, 2024 Babajide Ibiayo</p>
+        <div class="social">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </footer>
+    </section>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
